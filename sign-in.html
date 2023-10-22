@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Nexus</title>
+    <link rel="stylesheet" href="./Assets/customize/header.css">
+    <link rel="stylesheet" href="./Assets/customize/sign-in.css">
+    <link rel="stylesheet" href="./Assets/customize/footer.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+
+<body>
+    <div class="global-main">
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Main</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="games.html">Games</a>
+                    <ul class="first-level-menu">
+                        <li><a href="">Open World</a></li>
+                        <li><a href="">Adven-Ac </a></li>
+                        <li><a href="">First Person</a>
+                            <ul class="second-level-menu">
+                                <li><a href="games.html">Call of Duty</a></li>
+                                <li><a href="games.html">Counter-Strike</a></li>
+                                <li><a href="">UI_OPTIONS_06</a></li>
+                                <li><a href="">UI_OPTIONS_07</a></li>
+                                <li><a href="">UI_OPTIONS_08</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">Account</a>
+                    <ul class="second-level-menu">
+                        <li><a href="sign-in.html">Login</a></li>
+                        <li><a href="sign-up.html">Register</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <section>
+            <div class="form-box">
+                <div class="form-value">
+                    <form action="" id="login-form">
+                        <h2>LOGIN</h2>
+                        <p>Please enter your username and password!</p>
+                        <div class="inputbox">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <input type="text" id="username" required>
+                            <label for="username">USERNAME</label>
+                        </div>
+                        <div class="inputbox">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                            <input type="password" id="password" required>
+                            <label for="password" >PASSWORD</label>
+                        </div>
+                        
+                        <div class="forget">
+                            <label for=""><input type="checkbox">Remember me? <a href="#">Forget Password</a></label>
+                        </div>
+                        <div id="message"></div>
+                        <button type="submit">Login</button>
+                        <div class="register">
+                            <p>Don't have a account? <a href="#">Register</a></p>
+                        </div>
+                    </form>
+                    <style>
+                    </style>
+                    
+                </div>
+            </div>
+        </section>
+
+    <script src="./Assets/JS/login-data.js"></script>
+</body>

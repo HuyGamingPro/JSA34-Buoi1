@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Bio Sans Regular";
+    src: url(bio_sans_regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "Bio Sans Bold";
+    src: url(bio_sans_bold.otf);
+  }
+  
+  @font-face {
+    font-family: "Bio Sans Lights";
+    src: url(bio_sans_light.otf);
+  }
+  
+  @font-face {
+    font-family: "Bio Sans ExtraLights";
+    src: url(bio_sans_extralight.otf);
+  }
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+.footer{
+    background-color: #313131;
+    padding-bottom:100px;
+}
+
+.footer h2{
+    color:white;
+    text-align: center;
+    font-family: "Bio Sans ExtraLights";
+    font-size: 200%;
+    letter-spacing: 4px;
+    padding-top:20px;
+}
+.footer p{
+    color:white;
+    margin-left:50px;
+    letter-spacing: 2px;
+}

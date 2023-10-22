@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "StratumNo1Medium";
+  src: url(/Assets/CSS-Fonts/Modern-Warfare-II/Stratum-No1-Medium.otf);
+}
+
+@font-face {
+  font-family: "Bio Sans Lights";
+  src: url(bio_sans_light.otf);
+}
+
+@font-face {
+  font-family: "Bio Sans Bold";
+  src: url(bio_sans_bold.otf);
+}
+*{font-family: "Bio Sans Regular";}
+body
+{
+  background-image: url(../img/gaming-wallpaper.jpg);
+  font-family: "StratumNo1Medium";
+}
+.container-profile{
+  display:flex;
+}
+.information{
+  background-color: white;
+  padding-right:1000px;
+}
+
+.avatar{
+  background-color: white;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.avatar img{
+  margin-top:40px;
+  padding-bottom:200px;
+}
+
+.information #text{
+  margin-left:20px;
+  margin-top:40px;
+}

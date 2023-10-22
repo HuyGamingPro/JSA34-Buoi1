@@ -1,0 +1,175 @@
+/*Bio Sans Font*/
+@font-face {
+  font-family: "Bio Sans Regular";
+  src: url(bio_sans_regular.ttf);
+}
+
+@font-face {
+  font-family: "Bio Sans Bold";
+  src: url(bio_sans_bold.otf);
+}
+
+@font-face {
+  font-family: "Bio Sans Lights";
+  src: url(bio_sans_light.otf);
+}
+
+@font-face {
+  font-family: "Bio Sans ExtraLights";
+  src: url(bio_sans_extralight.otf);
+}
+/*------------------------------------------------------------------------------------------------*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Bio Sans Regular";
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+#title {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Bio Sans ExtraLights";
+  letter-spacing: 5px;
+  font-size: 40px;
+  color: aliceblue;
+}
+.container {
+  background-image: url("../img/picture-activision-modern-warfare.png");
+  background-repeat: no-repeat;
+  padding-bottom: 500px;
+  background-size:cover; 
+}
+
+.main-background {
+  margin-left: 190px;
+}
+
+.main-background>h3 {
+  color: white;
+  margin-top: 200px;
+  font-size: 3.5rem;
+  font-family: "Bio Sans ExtraLights";
+  letter-spacing: 2px;
+}
+
+.main-background>p {
+  color: #9c9c9c;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Bio Sans Regular";
+}
+
+.main-background>a {
+  font-size: 1.8rem;
+  font-family: "Bio Sans Bold";
+  padding: 4px 28px;
+  letter-spacing: 0.5px;
+  border: none;
+  background-image:url(/Assets/img/Button-Hover/MW2019-Style.png);
+  color: #597985;
+  text-decoration: none;
+}
+
+.main-background>a:hover {
+  color: #97cde1;
+  background-image:transparent;
+  font-weight: 133px;
+  transition: 0.35s;
+}
+
+.box {
+  background-image: none;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------Game Image Introduce----------------------------------------------------*/
+.A12B{
+  background-image: url('../img/Modern-Warfare-II/MWII_2022_Topography.png');
+  background-repeat: repeat-y;
+  padding-top:50px;
+  padding-bottom:300px;
+  display:flex;
+  justify-content:center;
+}
+.A12B>h1{
+      font-family: "Bio Sans ExtraLights";
+      text-align: center;
+      color:white;
+      font-size:2.5rem;
+    }
+
+.A12B .promotion-box{
+/*None*/
+
+}
+
+.A12B .promotion-box img{
+    width:500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.A12B .promotion-box h4{
+  color: #a59d95;
+  font-family: "Bio Sans Regular";
+  margin-top: 10px;
+  font-size:2rem;
+}
+
+.A12B .promotion-box p{
+  color:white;
+  font-family: "Bio Sans Regular";
+  margin-top: 5px;
+}
+
+/*--------------------------------Pre-order Game--------------------------------*/
+.preorder-page{  background-color: #000000; padding-bottom:2px;}
+.preorder-page h2{
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-family: "Bio Sans ExtraLights";
+  letter-spacing: 10px;
+}
+.preorder-page>.preorder-box{
+  margin-top:20px;
+  display: flex;
+  justify-content:center;
+}
+.box-flex{margin:20px;padding:40px;}
+.preorder-box{
+  text-align: center;
+}
+
+.box-flex img{
+  width:150px;
+}
+/*Standard Editon*/
+
+.preorder-box h3
+{
+  color:#ffffff;
+  font-family: "Bio Sans ExtraLights";
+  letter-spacing: 8px;
+  font-size:15px;
+}
+
+.box-flex{
+  border: 1.5px solid #ffffff;
+  border-radius: 4px;
+  background-image:url(/Assets/img/Button-Hover/MW2019-Style.png);
+}
+.box-flex:hover{
+  border: 2px groove #97cde1;
+  transition: 0.25s;
+  background-image:url(/Assets/img/Button-Hover/MW2019-Style-Hover.png);
+}
+/*----------------------------------------------------------------*/

@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "Bio Sans Regular";
+  src: url(bio_sans_regular.ttf);
+}
+
+@font-face {
+  font-family: "Bio Sans Bold";
+  src: url(bio_sans_bold.otf);
+}
+
+@font-face {
+  font-family: "Bio Sans Lights";
+  src: url(bio_sans_light.otf);
+}
+
+@font-face {
+  font-family: "Bio Sans ExtraLights";
+  src: url(bio_sans_extralight.otf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Calibri, "Bio Sans Regular";
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+#title {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Bio Sans ExtraLights";
+  letter-spacing: 5px;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+/*=================================ABOUT MEMBERLIST==========================================================*/
+.container .member-list>.box {
+  width: 100%;
+  display:block;
+}
+
+body {
+  align-content: center;
+
+}
+
+;
+
+.container {
+  width: 100%;
+}
+
+.container>.member-list {
+  text-align: center;
+}
+
+.member-list {
+  margin-top: 30px;
+
+  @media only screen and (min-width:768px) {
+    width: 65rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.box>h2 {
+  font-size: 2.5rem;
+  letter-spacing: 1.2px;
+  color: gray;
+  font-family: "Bio Sans ExtraLights";
+}
+
+.box>h5 {
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Bio Sans Lights";
+  letter-spacing: 5px;
+  margin-top: 12px;
+}
+
+.box>h3 {
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  color: red;
+}
+
+.box>p {
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  color: white;
+  margin-top: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/*=================================================================================================*/
+.container {
+  background-image: url("../img/gaming-room-desktop-and-television.jpg");
+  background-repeat: no-repeat;
+  padding-bottom: 500px;
+}
+
+.main-background {
+  margin-left: 190px;
+}
+
+.main-background>h3 {
+  color: cyan;
+  margin-top: 200px;
+  font-size: 3.5rem;
+  font-family: "Bio Sans Bold";
+  letter-spacing: 2px;
+}
+
+.main-background>p {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+
+.main-background>a {
+  font-size: 2rem;
+
+  padding: 4px 28px;
+  letter-spacing: 0.5px;
+  border: none;
+  background-color: rgb(237, 38, 38);
+  color: white;
+  text-decoration: none;
+}
+.box {
+  background-image: none;
+}
+
+/*================================================================*/

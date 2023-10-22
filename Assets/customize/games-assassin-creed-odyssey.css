@@ -1,0 +1,232 @@
+
+/*------------------------------------------------------------------------------------------------*/
+/*Bio Sans Font*/
+@font-face {
+  font-family: "Ubisoft Sans Regular";
+  src: url(Ubisoft/Ubisoft-Sans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Ubisoft Sans Bold";
+  src: url(Ubisoft/Ubisoft-Sans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Stratum Lights";
+  src: url(bio_sans_light.otf);
+}
+
+@font-face {
+  font-family: "Stratum ExtraLights";
+  src: url(Modern-Warfare-III/Stratum-No1-ExtraLight.otf);
+}
+/*------------------------------------------------------------------------------------------------*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Ubisoft Sans Regular";
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+#title {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Bio Sans ExtraLights";
+  letter-spacing: 5px;
+  font-size: 40px;
+  color: aliceblue;
+}
+.container {
+  background-image: url("../img/picture-ubisoft-assassin-creed-odyssey.png");
+  background-repeat: no-repeat;
+  padding-bottom: 500px;
+  background-size:cover; 
+}
+
+.main-background {
+  margin-left: 190px;
+}
+
+.main-background>h3 {
+  color: black;
+  margin-top: 200px;
+  font-size: 3.5rem;
+  font-family:"Ubisoft Sans Regular";
+  letter-spacing: 2px;
+}
+
+.main-background>p {
+  color: rgb(77, 77, 77);
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  font-family:"Ubisoft Sans Regular", sans-serif;
+}
+
+.main-background>a {
+  font-size: 1.5rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 4px 28px;
+  letter-spacing: 0.5px;
+  border: none;
+  background-color: #806916;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+}
+
+.main-background>a:hover {
+  transition: 0.35s;
+  color: #806916;
+  background-color: white;
+}
+
+.box {
+  background-image: none;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------Game Image Introduce----------------------------------------------------*/
+.A12B{
+  background-color: white;
+  background-repeat: repeat-y;
+  padding-top:50px;
+  padding-bottom:300px;
+  display:block;
+  justify-content: space-between;
+}
+.A12B>h1{
+      font-family: "Stratum ExtraLights";
+      text-align: center;
+      color:white;
+      font-size:2.5rem;
+    }
+
+.A12B .promotion-box{
+/*None*/
+  padding: 20px 50px 0px 50px;
+}
+
+.A12B .promotion-box img{
+    width:400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.A12B .promotion-box h4{
+  color:black;
+  font-family: "Ubisoft Sans Regular";
+  margin-top: 10px;
+}
+
+.A12B .promotion-box p{
+  color:black;
+  font-family: "Ubisoft Sans Regular";
+  margin-top: 5px;
+}
+
+/*--------------------------------Pre-order Game--------------------------------*/
+.preorder-page{  background-color: #000000; padding-bottom:2px;}
+.preorder-page h2{
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-family: "Stratum ExtraLights";
+  letter-spacing: 2px;
+}
+.preorder-page>.preorder-box{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 40px auto;
+}
+.preorder-box{
+  text-align: center;
+}
+.preorder-box button{
+    font-size:1.6rem;
+    font-family: "Ubisoft Sans Regular", sans-serif;
+    border-radius: 100px;
+    padding: 4px 28px;
+    letter-spacing: 0.5px;
+    border: none;
+    background-color: rgb(0, 194, 72);
+    color: black;
+    margin: 15px 15px;
+    border: 2px solid rgb(0, 194, 72);
+}
+
+.preorder-box button:hover{ 
+    color: white;
+    transition: 0.25s;
+}
+/*Game Options - Editon*/
+.preorder-page{  background-image: url(../img/Assassin-Creed-Odyssey/ACOD_Background.webp)}
+.preorder-box .game-options
+{
+  height:477.68px;
+  background-color:#1B2025;
+  margin:0.75rem;
+  border-radius: 10px;
+}
+
+.preorder-box .game-options img
+{
+  width:121px;
+  height:159px;
+}
+
+.preorder-box .game-options h4{
+  color: white;
+  font-family: "Ubisoft Sans Bold";
+  margin-top:20px;
+  font-size:20px;
+  text-align: center;
+
+}
+
+.preorder-box .game-options li
+{
+  margin-top:15px;
+  color:white;
+  font-weight: 400;
+  list-style:none;
+  letter-spacing: 1px;
+  font-size: 0.88rem;
+  line-height: 1.38rem;
+  margin-bottom: 2px;
+  font-family: "Ubisoft Sans Regular";
+}
+.preorder-box .game-options ul 
+{
+  text-align: left;
+  padding-left:25px;
+}
+.preorder-box .game-options p
+{
+  color:white;
+}
+/*----------------------------------------------------------------*/
+/*Game Specs*/
+.game-specs{background-color: #0D0D0D;}
+.game-specs h2{
+  font-family: "Ubisoft Sans Bold";
+  text-align: center;
+  color:white;
+  padding-top:50px;
+  font-size: 2.5rem;
+}
+.game-specs h3{
+  color:white;
+  margin-left:20px;
+}
+
+.game-specs ul li{
+  color:white;
+}

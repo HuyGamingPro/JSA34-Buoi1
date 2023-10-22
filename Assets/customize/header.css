@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Bio Sans Lights";
+    src: url(bio_sans_light.otf);
+  }
+
+/*----------------------------------------------------------------HEADER----------------------------------------------------------------*/
+nav 
+{
+    background-color: #1b1b1b;
+    height:60px;
+}
+
+nav::after
+{
+    content:'';
+    clear:both;
+    display: table;
+}
+
+nav ul{
+    float:left;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+}
+.menu{
+    margin-left:150px;
+}
+nav ul li{
+    float:left;
+    display: inline-block;
+    margin:0 4px;
+    background-color: #1b1b1b;
+}
+nav ul li a{
+    text-decoration: none;
+    line-height:60px;
+    font-family: "Bio Sans Lights";
+    font-size:18px;
+    padding:8px 45px;
+    color:white;
+    letter-spacing: 1.2px;
+}
+nav ul li a:hover{
+    color: #79D9FF;
+    transition: 0.75s;
+}
+
+nav ul ul{
+    position: absolute;
+    top:60px;
+    visibility: hidden;
+}
+nav ul li:hover > ul{
+    visibility: visible;
+}
+nav ul ul li{
+    position: relative;
+    margin:0px;
+    float:none;
+    display: list-item;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+nav ul ul ul li{
+    position: relative;
+    top:-60px;
+    left:142px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/

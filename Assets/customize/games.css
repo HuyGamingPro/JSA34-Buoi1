@@ -1,0 +1,219 @@
+@font-face {
+  font-family: "Bio Sans Regular";
+  src: url(bio_sans_regular.ttf);
+}
+
+@font-face {
+  font-family: "Bio Sans Bold";
+  src: url(bio_sans_bold.otf);
+}
+
+@font-face {
+  font-family: "Bio Sans Lights";
+  src: url(bio_sans_light.otf);
+}
+
+@font-face {
+  font-family: "Bio Sans ExtraLights";
+  src: url(bio_sans_extralight.otf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Calibri, "Bio Sans Regular";
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+#title {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Bio Sans ExtraLights";
+  letter-spacing: 5px;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+/*=================================ABOUT MEMBERLIST==========================================================*/
+.container .member-list>.box {
+  width: 100%;
+  display:block;
+}
+
+body {
+  align-content: center;
+
+}
+
+;
+
+.container {
+  width: 100%;
+}
+
+.container>.member-list {
+  text-align: center;
+}
+
+.member-list {
+  margin-top: 30px;
+
+  @media only screen and (min-width:768px) {
+    width: 65rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.box>h2 {
+  font-size: 2.5rem;
+  letter-spacing: 1.2px;
+  color: gray;
+  font-family: "Bio Sans ExtraLights";
+}
+
+.box>h5 {
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Bio Sans Lights";
+  letter-spacing: 5px;
+  margin-top: 12px;
+}
+
+.box>h3 {
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  color: red;
+}
+
+.box>p {
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  color: white;
+  margin-top: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/*=================================================================================================*/
+.container {
+  background-image: url("../img/adventure-daylight-wallpaper.jpg");
+  background-repeat: no-repeat;
+  padding-bottom: 500px;
+}
+
+.main-background {
+  margin-left: 190px;
+}
+
+.main-background>h3 {
+  color: cyan;
+  margin-top: 200px;
+  font-size: 3.5rem;
+  font-family: "Bio Sans Bold";
+  letter-spacing: 2px;
+}
+
+.main-background>p {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+
+.main-background>a {
+  font-size: 2rem;
+
+  padding: 4px 28px;
+  letter-spacing: 0.5px;
+  border: none;
+  background-color: rgb(237, 38, 38);
+  color: white;
+  text-decoration: none;
+}
+
+.main-background>a:hover {
+  background-color: rgb(190, 18, 18);
+  transition: 0.35s;
+}
+
+.box {
+  background-image: none;
+}
+
+/*================================================================*/
+/*=======================================================FLEXBOX================================================================*/
+.games-list {
+  margin-bottom: 150px;
+  margin-top: 10px;
+
+  @media only screen and (min-width: 768px) {
+    margin-right: 32px;
+    margin-left: 32px;
+  }
+}
+
+.games-list h2 {
+  text-align: center;
+  font-family: "Bio Sans ExtraLights";
+  font-size: 200%;
+  letter-spacing: 4px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top:20px;
+}
+
+.box>.card {
+  width: 300px;
+  box-shadow: 0 0.0625rem 0.125rem #00000026, 0 0.0625rem 0.25rem #00000026;
+  text-align: center;
+  border-radius: 8px;
+}
+.box>.card>img {
+  width: 300px;
+  height:38.5%;
+  border-radius:8px;
+}
+
+.card>a>button{
+  border:none;
+  padding: 10px 20px 10px 20px;
+  font-size:16px;
+  margin-bottom: 20px;
+  border-radius:4px;
+}
+
+.card>a>button:hover{
+  background-color:rgb(122, 191, 18);
+  color:white;
+  transition: 0.25s;
+  padding: 10px 20px 10px 20px;  
+}
+.box > .card > p{
+  margin: 20px;
+}
+
+.card h3{
+      margin-top:10px;
+      font-family: "Bio Sans ExtraLights";
+      font-size:24px;
+}
+.card p{
+}
+
+.games-list h3{
+  font-family: "Bio Sans ExtraLights";
+  letter-spacing: 0.25cm;
+  font-size:1.5rem;
+  margin-top: 25px;
+}
+/*================================================================*/
